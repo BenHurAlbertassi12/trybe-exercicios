@@ -1,0 +1,20 @@
+.center{
+    text-align: center;
+}
+    /* background-color: aquamarine; */
+
+/* altera a cor quando passamos o ponteiro por cim */
+ul:hover, ol:hover {
+    background-color: blue;
+}
+
+/* altera a cor quando clicamos em cima */
+
+li:active {
+    color: rgb(255, 255, 255);
+}
+
+/* list style muda o caractere de marcação */
+li {
+    list-style: none;
+}
