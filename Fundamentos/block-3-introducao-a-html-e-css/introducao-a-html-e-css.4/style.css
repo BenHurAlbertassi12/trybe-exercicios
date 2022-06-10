@@ -1,0 +1,9 @@
+
+
+.nome-cientifico {
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
