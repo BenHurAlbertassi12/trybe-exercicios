@@ -3,6 +3,13 @@ body {
   text-align: center;
 }
 
+h2, h3, h4 {
+    color:rgb(63, 171, 171);
+    line-height: 16px;
+    
+}
+
+
 p {
   color: #475550;
   font-size: 14px;
@@ -43,6 +50,7 @@ header {
 
 article {
   background-color: #f1faee;
+  border-radius: 5px;
 }
 
 img {
@@ -57,6 +65,7 @@ img {
     width: 600px 50px;
     border-radius: 10px 25px;
     border: 50px;
+    
 
 }
 
@@ -87,6 +96,7 @@ li {
   color: #475550;
   font-size: 14px;
   font-weight: 300;
+  
 }
 
 .fonte {
