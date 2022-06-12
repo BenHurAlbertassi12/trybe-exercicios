@@ -1,74 +1,82 @@
-body{
-    background-color: #a8dadc;  
+body {
+  background-color: #a8dadc;
 }
 
-p, li {
-    color: #475550;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    margin: auto;
-}
-
-h1, h2, h3, h4 {
-    
+p,
+li {
+  color: #475550;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: auto;
 }
 
 .nome-cientifico {
-    font-style: italic;
+  font-style: italic;
 }
 
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
 
 .classificacao {
-    display: inline;
+  display: inline;
 }
 
-table, th, td {
-    color: #475550;
-    font-size: 16px;
-    border: 1px solid black;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    margin: auto;
-    padding: auto;
+table,
+th,
+td {
+  color: #475550;
+  font-size: 16px;
+  border: 1px solid black;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: auto;
+  padding: auto;
+}
 
-  }
+header {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(63, 171, 171);
+  width: 600px;
+  border-radius: 25px 10px;
+  border: 50px;
+}
 
-  header {
-      margin: auto;
-      text-align: center;
-      background-color: rgb(63, 171, 171);
-      width: 600px;
-      border-radius: 25px 10px;
-      border: 50px;
-      
-      
-  }
+article {
+  background-color: #f1faee;
+}
 
-  article {
-      background-color: #f1faee;
-  }
+img {
+  width: 200px;
+}
 
-  img {
-      size-adjust: 30%;
-  }
+.ul_naveg {
+  text-align: center;
+}
 
-.ul_naveg{
+.nav {
+  text-align: center;
+  display: inline;
+  list-style: none;
+  padding: 50px;
+  width: 300px;
+}
+
+.artigo {
+    padding: 30px 70px 90px 70px;
     text-align: center;
+    display: inline-block;
+    
 }
 
-  .nav {
-      text-align: center;
-      display: inline;
-      list-style: none;
-      padding: 50px;
-      width: 300px;
-  }
+.a1, .a2, .a3 {
+width: 30%;
+margin: 5px;
+}
 
-  .artigos {
-      
-  }
+ol {
+    list-style: none;
+}
