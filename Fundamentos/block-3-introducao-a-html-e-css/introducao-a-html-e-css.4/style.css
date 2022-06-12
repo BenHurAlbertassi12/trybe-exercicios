@@ -1,9 +1,9 @@
 body {
   background-color: #a8dadc;
+  text-align: center;
 }
 
-p,
-li {
+p {
   color: #475550;
   font-size: 14px;
   line-height: 22px;
@@ -13,10 +13,6 @@ li {
 
 .nome-cientifico {
   font-style: italic;
-}
-
-h3 {
-  text-align: center;
 }
 
 .classificacao {
@@ -40,7 +36,7 @@ header {
   margin: auto;
   text-align: center;
   background-color: rgb(63, 171, 171);
-  width: 600px;
+  width: 600px 50px;
   border-radius: 25px 10px;
   border: 50px;
 }
@@ -51,10 +47,17 @@ article {
 
 img {
   width: 200px;
+  border-radius: 50%;
 }
 
 .ul_naveg {
-  text-align: center;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(63, 171, 171);
+    width: 600px 50px;
+    border-radius: 10px 25px;
+    border: 50px;
+
 }
 
 .nav {
@@ -66,17 +69,26 @@ img {
 }
 
 .artigo {
-    padding: 30px 70px 90px 70px;
-    text-align: center;
-    display: inline-block;
-    
+  padding: 30px 70px 90px 70px;
+  text-align: center;
 }
 
-.a1, .a2, .a3 {
-width: 30%;
-margin: 5px;
+.a1,
+.a2,
+.a3 {
+  width: 30%;
+  margin: 5px;
+  display: inline-block;
+
 }
 
-ol {
-    list-style: none;
+li {
+  list-style: none;
+  color: #475550;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.fonte {
+    font-size: 14px;
 }
