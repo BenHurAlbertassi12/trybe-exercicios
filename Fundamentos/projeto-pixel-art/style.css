@@ -1,27 +1,67 @@
 body {
     background-color: #ccc5b3;
     text-align: center;
+    align-items: center;
     font-family: 'Press Start 2P';
-    font-size: 20px;
+    
 }
+
+
 img {
     width: 50px;
     position: static;
+    border: 1px solid black;
 }
-.a0{background-color: black;}
-.b1{background-color: red;}
-.c2{background-color: green;}
-.d3{background-color: #0000ff;}
-.e4{background-color: aliceblue;}
-.f5{background-color: yellow;}
-.g6{background-color: #ff00ff; }
-.h7{background-color: #00ffff;}
-.i8{background-color: #ff0080;}
-.j9{background-color: #ff8040;}
-.a{background-color: #804000}
-.b{background-color: #008080}
-.c{background-color: #800000}
-.d{background-color: #800080;}
-.e{background-color: #8080ff;}
-.f{background-color: darkgrey;}
 
+#pixel-board {
+    padding: 20px;
+    width: 210px;
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.pixel{
+    
+    margin-bottom: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: black solid 1px;
+   
+}
+
+.color {
+    text-align: center;
+      margin: -1px;
+      padding: 0px;
+      width: 40px;
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      display: inline-block;
+      border: black solid 1px;
+
+}
+
+#color-palett {
+    width: 400px;
+    height: 40px;
+}
+
+
+      /* .black{}
+.red{}
+.green{}
+.blue{}
+.e{}
+.f{}
+.g{}
+.h{}
+.i{}
+.j{}
+.k{}
+.l{}
+.m{}
+.n{}
+.o{}
+.p{} */
