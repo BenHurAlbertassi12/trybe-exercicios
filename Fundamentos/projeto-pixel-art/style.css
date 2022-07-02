@@ -1,0 +1,27 @@
+body {
+    background-color: #ccc5b3;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+img {
+    width: 50px;
+    position: static;
+}
+.a0{background-color: black;}
+.b1{background-color: red;}
+.c2{background-color: green;}
+.d3{background-color: #0000ff;}
+.e4{background-color: aliceblue;}
+.f5{background-color: yellow;}
+.g6{background-color: #ff00ff; }
+.h7{background-color: #00ffff;}
+.i8{background-color: #ff0080;}
+.j9{background-color: #ff8040;}
+.a{background-color: #804000}
+.b{background-color: #008080}
+.c{background-color: #800000}
+.d{background-color: #800080;}
+.e{background-color: #8080ff;}
+.f{background-color: darkgrey;}
+
