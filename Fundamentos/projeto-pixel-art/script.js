@@ -16,6 +16,8 @@ corDoFundo[12].style.backgroundColor = "#800000";
 corDoFundo[13].style.backgroundColor = "#800080";
 corDoFundo[14].style.backgroundColor = "#8080ff";
 corDoFundo[15].style.backgroundColor = "darkgrey";
+//paleta de cores
+//https://docs.microsoft.com/pt-br/dotnet/desktop/winforms/advanced/types-of-bitmaps?view=netframeworkdesktop-4.8
 
 //função para criar o quadro de pixel 5x5
 function quadroDesenhoPixel() {
@@ -60,36 +62,43 @@ coloredPixels();
 function pintarPixels() {
   //pintar o pixel
   let quadroPixels = document.getElementById("pixel-board");
+  //https://www.w3schools.com/jsref/met_document_getelementbyid.asp
   //variavel quadroPixel que vai receber o elemento 'pixel-board'
   quadroPixels.addEventListener("mouseup", function (event) {
     //variavel recebe um evento de escuta com os parametros "mouseup" function (event)
     //https://www.w3schools.com/jsref/event_onmouseup.asp
-    let selectedColor = document.querySelectorAll(".selected");
+    let selectedColor = document.querySelectorAll(".selected")
     //variavel selctedColor recebe a classe selected
     event.target.style.background = selectedColor[0].id;
     //https://www.w3schools.com/jsref/prop_html_id.asp
-    //esse event.target vai definir o stylo do pixel para cor selecionada, pelo selectedColor
-
+    //esse event.target vai definir o style do pixel para cor selecionada, pelo selectedColor
   });
 }
 pintarPixels();
 
 function limparPixels(buttonName) {
-    //botão de apagar
-  let cleanButton = document.querySelector("p"); 
+  //botão de apagar
+  let cleanButton = document.querySelector("p");
   //criando e adcionando a variavel cleanButton o 'p' atravez do query selector, no html
   let newButton = document.createElement("button");
   //criando a variavelNewButton e adcionando o elemento button
   newButton.id = "clear-board";
-  //variavel newButton recebe o 
+  //variavel newButton recebe o .id 'clear-board'
   newButton.innerHTML = buttonName;
+  //variavel recebe a função limparPixels(buttonName)
   cleanButton.appendChild(newButton);
+  //clearButton recebe o filho newButton
 
   newButton.addEventListener("click", function () {
+    //adicionado evento de escuta 'click'
     let pixelsPintados = document.querySelectorAll(".pixel");
+    //variavel pixelsPintados recebe a classe .pixel
     for (let index = 0; index < pixelsPintados.length; index += 1) {
+        //comando for para percorrer a variavel pixelPintados
       pixelsPintados[index].style.background = "white";
+      //para cada posição da variavel pixels pintados ele adiciona a cor branca
     }
   });
 }
 limparPixels("Limpar");
+//retorna ao evento limparPixel com o nome escrito em tela pelo innerHTML para "limpar"
