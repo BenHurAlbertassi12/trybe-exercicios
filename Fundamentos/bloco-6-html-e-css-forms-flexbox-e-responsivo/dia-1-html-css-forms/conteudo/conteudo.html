@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <p>Texto</p>
+    <form action="" method="get">
+        <label for="input-text">Digite seu nome</label>
+        <!-- o forsepe para criar um vinculo entre o input e a label, para isto é utilizado o ID-->
+
+        <input type="text" placeholder="Digite alguma coisa" required class="" id="input-text" value="Benhur"
+            name="texto" />
+        <!-- placeholder coloca um texto dentro da caixa de dialogo -->
+        <!-- required deixa o campo como obrigatório -->
+        <!-- class é para criar com classe -->
+        <!-- value deixa o campo breviamente preenchido, diferente do placeholder que é apenas uma frase demonstrativa-->
+        <!-- id serve para ser manipuado como por exemplo getHelementById -->
+
+        <br>
+        <p>TextArea</p>
+        <textarea name="" id="" cols="30" rows="5">
+Escreva seu texto aqui</textarea>
+    </form>
+    <!-- literalmente uma area de texto -->
+
+    <br>
+    <p>Check-Box e Radio</p>
+    <form action="" method="get">
+        <input type="checkbox" id="jogo-1" value="cs" name="game" />CounterStricke
+        <input type="checkbox" id="jogo-2" value="tib" name="game" />Tibia
+        <input type="checkbox" id="jogo-3" value="lol" name="game" />League of
+        Legends <input type="checkbox" id="jogo-4" value="wow" name="game" />Word
+        of Warcraft
+        <input type="checkbox" id="jogo-5" value="ded" name="game" />Dungeon &
+        Dragons
+        <input type="checkbox" id="jogo-6S" value="vava" name="game" checked />Valorant
+    </form>
+    <!--
+        ao utilizar a opção checked ele ja vem com o checkbox marcado
+        utilizado para selecionar mais de uma opção 
+        -->
+
+    <br>
+    <label for="hub1"><input type="radio" id="hub1" name="hub" value="rj" />Rio de Janeiro
+    </label>
+    <input type="radio" id="hub1" name="hub" value="sp" />São Paulo
+    <input type="radio" id="hub1" name="hub" value="fl" />Florianópolis
+    <input type="radio" id="hub1" name="hub" value="bh" />Salvador
+    </form>
+    <!-- 
+        input do tipo radio é a que só tem como escolha uma opção 
+        
+        a primeira opção do estado do RJ esta dentro de uma label para mostrar que, 
+        quando isto corre na hora de selecionar independente de qualquer parte do texto 
+        que se clica ela vai ser selecionado 
+        -->
+
+    <br>
+    <p>Select (DropDown List)</p>
+    <form action="" method="get">
+        <select name="estado" id="dropdown-estado">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="BH">Bahia</option>
+            <option value="SP">São Paulo</option>
+        </select>
+    </form>
+    <!-- 
+        Lista de seleção, como usada em escolha de idade, dia, alguma lista por exemplo
+        para criar seleções utilizar dentro da tag option
+        -->
+
+    <br>
+    <p>Password</p>
+    <form action="" method="get">
+        <input type="password" name="senha">
+        <!-- senha, sem grandes segredos -->
+    </form>
+
+    <br>
+    <p>Enviar um arquivo</p>
+    <form action="" method="get" enctype="multipart/form-data">
+        <input type="file" name="" id="">
+    <!-- 
+        enviar um arquivo 
+        importante usar o enctype da forma como esta a cima
+        -->
+    </form>
+
+    <br>
+<form action="" method="post">
+    <p>Usuario</p>
+    <input type="text" name="user" required>
+    <p>Senha</p>
+    <input type="password" name="senha" required>
+    <br>
+    <button type="submit" class="" name="" id="">Enviar
+        <!-- metodo alterado para post para não aparecer a senha no url -->
+
+    </button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
