@@ -5,8 +5,7 @@
 
 body {
     display: inline;
-    justify-content: space-around;
-    justify-items: auto;
+    
 }
 
 hr {
@@ -32,14 +31,14 @@ h1{
     color: white;
 }
 
-.box1, img, .usuario{
+.box1, .imgHeader, .usuario{
     display: flex;
     text-align: center;
     justify-content: space-between;
     align-items: center;
 }
 
-img {
+.imgHeader {
     width: 100px;
 }
 
@@ -68,14 +67,14 @@ img {
     
 }
 
-.cadastro, .seuCla{
+.cadastro, .seuCla, .notaTrybewarts{
     width: 50%;
     display: inline-flex;
     padding: 0 2%;
     
 }
 
-select {
+select, textarea {
     width: auto;
     padding: 10px;
     margin: 10px;
@@ -95,7 +94,7 @@ select {
     width: 40%;
 }
 
-.vontadeAprender {
+.vontadeAprender, .notaTrybewarts  {
    width:60%;
   display: flex;
 flex-wrap: wrap;
@@ -103,8 +102,52 @@ flex-wrap: wrap;
 }
 
 .aprender{
-    margin: 0 25px;
+    margin: 0 25px;  
+}
+
+.notaTrybewarts, .notasAvaliação, .labelComentario {
+    font-size: 28px;
+    padding: 0 2%;
+    line-height: 46px;
+    align-items: center;
+
+}
+
+.comentario {
+
+    width: 50%;
+    display: block;
+    padding: 0 2%;
+
+}
+.concluir{
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+    background-color: blueviolet;
+    font-size: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+footer{
+    width: 100%;
+    background-color: darkslategrey;
+    text-align: center;
     
+    margin-top: 2%;
+
+}
+
+.rodaPe {
+color: white;
+font-size: 20px;
+padding: 0.8%;
+}
+
+.escudoTrybewarts{
+    display: inline-flex;
+    width: 50%;
 }
 
 
