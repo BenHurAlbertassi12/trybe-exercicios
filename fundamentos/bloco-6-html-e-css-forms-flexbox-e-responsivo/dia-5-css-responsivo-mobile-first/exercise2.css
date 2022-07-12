@@ -1,29 +1,40 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container{
+    display: flex;
+
+}
+
+.aside-one, .aside-two{
+
+}
+
+.main-content{
+
+}
+
+p{
+    padding: 20px;
+
+}
+
+
 
 @media screen (max-width: 600px) {
-    
 }
 
 @media screen (min-width: 600px) {
-    
 }
 
 @media screen (max-width: 1000px) {
-    
 }
-
-
-
-
-
-
-
 
 /* 
   Realize as seguintes tarefas:
