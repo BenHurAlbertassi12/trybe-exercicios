@@ -6,6 +6,10 @@ p {
   width: 300px;
 }
 
+.divi {
+    display: flex;
+}
+
 hr {
   width: 600px;
   margin: 30px;
@@ -101,12 +105,18 @@ footer {
   width: 100%;
   background-color: darkslategrey;
   margin-top: 2%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rodaPe {
   color: white;
   font-size: 20px;
   padding: 0.8%;
+ text-align: center;
+ width: 100%;
  
 }
 
