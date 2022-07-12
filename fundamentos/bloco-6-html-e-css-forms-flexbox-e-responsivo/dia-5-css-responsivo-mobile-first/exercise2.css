@@ -26,25 +26,34 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-      background-color: aquamarine;
-      font-family: sans-serif;
-    }
-    .container {
-      flex-direction: column;
-    }
-  
-    p {
-      padding: 0 5px;
-      line-height: 1.5em;
-    }
+  body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+  }
+  .container {
+    flex-direction: column;
+  }
 
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+  }
 }
 
-@media screen (min-width: 600px) {
+@media screen and (min-width: 600px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
 }
 
-@media screen (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 /* 
