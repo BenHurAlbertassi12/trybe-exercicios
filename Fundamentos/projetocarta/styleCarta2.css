@@ -3,9 +3,8 @@
   margin: 0;
 }
 p {
-    width: 300px;
+  width: 300px;
 }
-
 
 hr {
   width: 600px;
@@ -30,7 +29,6 @@ h1 {
   color: white;
 }
 
-
 .imgHeader,
 .usuario {
   display: flex;
@@ -42,7 +40,6 @@ h1 {
 .imgHeader {
   width: 100px;
 }
-
 
 .loginSenha {
   width: 100px;
@@ -58,8 +55,6 @@ h1 {
   color: aliceblue;
   font-weight: 900;
 }
-
-
 
 .seuCla,
 .notaTrybewarts {
@@ -87,12 +82,12 @@ textarea {
 }
 
 .notaTrybewarts,
-.notasAvaliação,
 .labelComentario {
   font-size: 28px;
   padding: 0 2%;
   line-height: 46px;
   align-items: center;
+  width: 100%;
 }
 
 .comentario {
@@ -100,7 +95,6 @@ textarea {
   display: block;
   padding: 0 2%;
 }
-
 
 footer {
   width: 100%;
@@ -120,52 +114,50 @@ footer {
   width: 50%;
 }
 
-.areaFormulario{
-    width: 50% ;
-    display: flex;
-    flex-wrap: wrap;
+.areaFormulario {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 .casaSelecionar,
-.box1
-
-
-{
-padding: 2%;
-width: 280px;
-display: flex;
-flex-wrap: wrap;
-border-radius: 10px;
-margin-left: 25px;
-
-
+.box1 {
+  padding: 2%;
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-left: 25px;
 }
 
-.nameMailHouse
-{
-    display: flex;
-    flex-wrap: wrap;
+.nameMailHouse {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .salvaSalveFamilia,
-.vontadeAprender {
-    width: 100%;
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .aprendendo
-{
-   
-    display: inline-flex;
-    flex-wrap: wrap; 
-    margin: 0, 10px;
-    
+.vontadeAprender,
+.comoAvalia {
+  width: 100%;
+  font-size: 24px;
+  line-height: 30px;
 }
-  
-  
-    
 
+.aprendendo {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0, 10px;
+}
 
-
+#nota1,
+#nota2,
+#nota3,
+#nota4,
+#nota5,
+#nota6,
+#nota7,
+#nota8,
+#nota9,
+#nota10 {
+  margin-left: 15px;
+}
