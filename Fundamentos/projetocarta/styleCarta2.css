@@ -49,7 +49,8 @@ h1 {
   text-align: left;
   justify-content: space-around;
 }
-.buttoon {
+.buttoon
+ {
   text-align: center;
   background-color: blueviolet;
   color: aliceblue;
@@ -81,8 +82,8 @@ textarea {
   margin: 0 10px;
 }
 
-.notaTrybewarts,
-.labelComentario {
+.notaTrybewarts
+{
   font-size: 28px;
   padding: 0 2%;
   line-height: 46px;
@@ -137,7 +138,9 @@ footer {
 
 .salvaSalveFamilia,
 .vontadeAprender,
-.comoAvalia {
+.comoAvalia,
+.labelComentario,
+.termos  {
   width: 100%;
   font-size: 24px;
   line-height: 30px;
@@ -165,5 +168,20 @@ footer {
 #areaTexto{
     width: 100%;
 }
+.concluir
 
+{
+    width: 85%;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: 900;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
 
