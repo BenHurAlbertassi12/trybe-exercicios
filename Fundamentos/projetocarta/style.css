@@ -1,168 +1,173 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    display: inline;
-    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 hr {
-    width: 50%;
-    margin: 30px;
+  width: 50%;
+  margin: 30px;
 }
+
 
 header {
-    width: 100%;
-    background-color: green;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
+  background-color: green;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-h1{
-    text-align: center;
-    margin-top: 16px;
-}
-
-.tryCabecalho{
-    font-size: 40px;
-    color: white;
+h1 {
+  text-align: center;
+  margin-top: 16px;
 }
 
-.box1, .imgHeader, .usuario{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
+
+.tryCabecalho {
+  font-size: 40px;
+  color: white;
+}
+
+.box1,
+.imgHeader,
+.usuario {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imgHeader {
-    width: 100px;
+  width: 100px;
 }
 
-
-.box1, .loginSenha {
+.box1,
+.loginSenha {
   width: 100px;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   text-align: left;
   justify-content: space-around;
-
-  
 }
-.buttoon{
-    text-align: center;
-    background-color: blueviolet;
-    color: aliceblue;
-    font-weight: 900;
+.buttoon {
+  text-align: center;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-weight: 900;
 }
-.box1, .nomeSobrenome, .casaEmail {
-    width: 90%;
-    text-align: left;
-    justify-content: space-between;
-    margin: 0;
-    
-}
-
-.cadastro, .seuCla, .notaTrybewarts{
-    width: 50%;
-    display: inline-flex;
-    padding: 0 2%;
-    
+.box1,
+.nomeSobrenome,
+.casaEmail {
+  width: 90%;
+  text-align: left;
+  justify-content: space-between;
+  margin: 0;
 }
 
-select, textarea {
-    width: auto;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    text-align: left;
-   
+.cadastro,
+.seuCla,
+.notaTrybewarts {
+  width: 50%;
+  display: inline-flex;
+  padding: 0 2%;
 }
 
-.salvaSalveFamilia, .vontadeAprender {
-    font-size: 30px;
-    padding: 0 2%;
-    line-height: 46px;
-    align-items: center;
-       
+select,
+textarea {
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.salvaSalveFamilia,
+.vontadeAprender {
+  font-size: 30px;
+  padding: 0 2%;
+  line-height: 46px;
+  align-items: center;
 }
 .salvaSalveFamilia {
-    width: 40%;
+  width: 40%;
 }
 
-.vontadeAprender, .notaTrybewarts  {
-   width:60%;
+.vontadeAprender,
+.notaTrybewarts {
+  width: 60%;
   display: flex;
-flex-wrap: wrap;
-   
+  flex-wrap: wrap;
 }
 
-.aprender{
-    margin: 0 25px;  
+.aprender {
+  margin: 0 25px;
 }
 
-.notaTrybewarts, .notasAvaliação, .labelComentario {
-    font-size: 28px;
-    padding: 0 2%;
-    line-height: 46px;
-    align-items: center;
-
+.notaTrybewarts,
+.notasAvaliação,
+.labelComentario {
+  font-size: 28px;
+  padding: 0 2%;
+  line-height: 46px;
+  align-items: center;
 }
 
 .comentario {
-
-    width: 50%;
-    display: block;
-    padding: 0 2%;
-
+  width: 50%;
+  display: block;
+  padding: 0 2%;
 }
-.concluir{
-    width: 100%;
-    padding: 1% 1% 1% 1%;
-    background-color: blueviolet;
-    font-size: 20px;
-    border-radius: 10px;
-    color: aliceblue;
-    font-weight: 900;
+.concluir {
+  width: 100%;
+  padding: 1% 1% 1% 1%;
+  background-color: blueviolet;
+  font-size: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 900;
 }
 
-footer{
-    width: 100%;
-    background-color: darkslategrey;
-    text-align: center;
-    
-    margin-top: 2%;
-
+footer {
+  width: 100%;
+  background-color: darkslategrey;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .rodaPe {
-color: white;
-font-size: 20px;
-padding: 0.8%;
+  color: white;
+  font-size: 20px;
+  padding: 0.8%;
 }
 
-.escudoTrybewarts{
-    display: inline-flex;
-    width: 50%;
+.escudoTrybewarts {
+  display: flex;
+  width: 45%;
+
 }
 
+@media screen and (max-width: 768px) {
+  .usuario,
+  .imgHeader,
+  .tryCabecalho
+   {
+    font-size: x-large;
+    padding: 5px 0;
+    
 
+  }
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .imgHeader{
+    width: 0px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
