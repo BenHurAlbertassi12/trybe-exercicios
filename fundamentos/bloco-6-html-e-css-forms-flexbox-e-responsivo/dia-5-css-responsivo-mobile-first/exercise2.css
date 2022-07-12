@@ -27,7 +27,7 @@ p {
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: aquamarine;
+    background-color: bisque;
     font-family: sans-serif;
   }
   .container {
@@ -50,11 +50,18 @@ p {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .container {
-    flex-direction: column;
-  }
-}
+@media screen and (min-width: 1000px) {
+
+    body {
+        background-color: cornsilk;
+      }
+    
+      .container {
+        flex-wrap: nowrap;
+      }
+    
+      /* TODO */
+    }
 
 /* 
   Realize as seguintes tarefas:
