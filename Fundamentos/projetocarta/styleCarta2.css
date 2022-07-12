@@ -91,7 +91,7 @@ textarea {
 }
 
 .comentario {
-  width: 50%;
+  width: 80%;
   display: block;
   padding: 0 2%;
 }
@@ -161,3 +161,9 @@ footer {
 #nota10 {
   margin-left: 15px;
 }
+
+#areaTexto{
+    width: 100%;
+}
+
+
