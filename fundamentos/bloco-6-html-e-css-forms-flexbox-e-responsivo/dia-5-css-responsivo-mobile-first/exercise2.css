@@ -7,27 +7,38 @@ html {
 *:after {
   box-sizing: inherit;
 }
-.container{
-    display: flex;
-
+.container {
+  display: flex;
 }
 
+/* 
 .aside-one, .aside-two{
 
 }
 
-.main-content{
+.main-content{ 
 
+} 
+*/
+
+p {
+  padding: 20px;
 }
 
-p{
-    padding: 20px;
+@media screen and (max-width: 600px) {
+    body {
+      background-color: aquamarine;
+      font-family: sans-serif;
+    }
+    .container {
+      flex-direction: column;
+    }
+  
+    p {
+      padding: 0 5px;
+      line-height: 1.5em;
+    }
 
-}
-
-
-
-@media screen (max-width: 600px) {
 }
 
 @media screen (min-width: 600px) {
