@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
 
-[:rocket:] 3-5: _Projeto HTML & CSS - Lessons Learned_
+:rocket: 3-5: _Projeto HTML & CSS - Lessons Learned_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -56,8 +56,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto Trybewarts_
-<!--
+
+:rocket: 6-6: _Projeto Trybewarts_
+
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
@@ -65,6 +66,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 7-3: _Primeiros passos em Jest_
 - [ ] 7-4: _Projeto - JavaScript Testes Unitários_
 
+<!--
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
 - [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
