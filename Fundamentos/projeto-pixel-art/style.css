@@ -1,0 +1,99 @@
+body {
+  background-color: #ccc5b3;
+  text-align: center;
+  align-items: center;
+  font-family: "Press Start 2P";
+  /* 
+    fonte escolhida no google fonts para ficar de acordo com a tematica do projeto
+    text align e aligin itens para manter centralizado
+    cor de fundo escolhida para lembrar a tela de fundo de um tetris90'    
+    */
+}
+
+img {
+  width: 50px;
+  position: static;
+  border: 1px solid black;
+  /*
+    pequeno desenho para remeter aos antigos jogos dos anos 80/90
+    posição estatica 
+    borda de 1 px solid black para garantir que o projeto sera aprovado
+    */
+}
+
+#pixel-board {
+  display: inline-block;
+  padding: 0px;
+  width: 210px;
+  height: 180px;
+  background-color: black;
+  /*
+quadroDPixel
+
+    */
+}
+
+#clear-board {
+  padding: 10px;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  /*
+    botão de limpar
+    tamanho de 100px
+    fonte de 20px centralizado
+    */
+}
+.pixel {
+  margin-bottom: 0px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border: black solid 1px;
+  /*
+    tabela seguindo as instruções
+    */
+}
+
+.color {
+  text-align: center;
+  /* 
+  margin: 0px;
+  padding: 0px; 
+    */
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border: black solid 1px;
+  /*
+    seguindo os parametros do readme
+    */
+}
+
+#color-palett {
+  width: 400px;
+  height: 40px;
+  /*
+    seguindo parametros
+    */
+}
+
+/* .black{}
+.red{}
+.green{}
+.blue{}
+.e{}
+.f{}
+.g{}
+.h{}
+.i{}
+.j{}
+.k{}
+.l{}
+.m{}
+.n{}
+.o{}
+.p{} */
