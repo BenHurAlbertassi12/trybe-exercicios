@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Trybewarts</title>
+</head>
+
+<body>
+    <header id="" class="main-header">
+        <img class="imgHeader" id="" src="Trybe.png" alt="" />
+
+        <p class="tryCabecalho" id="">TrybeWarts</p>
+
+        <!-- Divi login -->
+        <div id="" class="usuario">
+            <!-- <label for="" id="" class=""></label> -->
+            <input type="text" placeholder="Login" id="" class="loginSenha" required />
+
+            <!-- <label for="" id="" class=""></label> -->
+            <input type="password" placeholder="Senha" id="" class="loginSenha" required />
+
+            <!-- <button class="buttoon loginSenha" id="logar" type="submit" value="Login" >Login</button> -->
+            <input class="buttoon loginSenha" id="" type="submit" value="Login" />
+        </div>
+
+        <!-- retirei o label pois ele esta oculto na imagem do site, entretanto esta declarado. -->
+    </header>
+
+    <h1 id="" class="">Formulário de Avaliação</h1>
+
+    <!-- Primeira Section de cadastro -->
+<section id="" class="areaFormulario">
+    <section id="" class="nameMailHouse cadastro">
+        <div id="" class="nomeSobrenome">
+            <label for="" id="" class="box1">Nome</label>
+            <input type="text" id="" class="box1" />
+
+            <label for="" id="" class="box1">E-Mail</label>
+            <input type="email" id="" class="box1" />
+
+            <br />
+        </div>
+        <div id="" class="casaEmail">
+            <label for="" id="" class="box1">Sobrenome </label>
+            <input type="text" id="" class="box1" />
+
+            <label for="" id="" class="box1">Casa</label>
+            <select name="" id="" class="box1">
+                <option value="gryffindor">Gryffindor</option>
+                <option value="slytherin">Slytherin</option>
+                <option value="hufflepuff">Hufflepuff</option>
+                <option value="revenclaw">Revenclaw</option>
+            </select>
+        </div>
+    </section>
+    <hr />
+    <section id="" class="seuCla">
+        <article id="" class="salvaSalveFamilia">
+            <p>Qual sua familia?</p>
+
+            <input type="radio" id="frontend" name="familia" value="Frontend" />
+            <label for="frontend">Familia Frontend</label>
+
+            <br />
+
+            <input type="radio" id="backend" name="familia" value="Backend" />
+            <label for="backend">Familia Backend</label>
+
+            <br />
+
+            <input type="radio" id="fullstack" name="familia" value="FullStack" />
+            <label for="fullstack">Familia FullStack</label>
+        </article>
+
+        <article id="" class="vontadeAprender">
+
+            <p id="" class="paragrafoAprender">Qual conteudo você esta com mais vontade de aprender?</p>
+
+            <div class="aprender">
+                <input type="checkbox" id="hofs" name="ling" value="hofs" />
+                <label for="hofs">Hofs</label>
+            </div>
+
+            <div class="aprender">
+                <input type="checkbox" id="jest" name="ling" value="jest" />
+                <label for="jest">Jest</label>
+            </div>
+
+            <div class="aprender">
+                <input type="checkbox" id="promisses" name="ling" value="promisses" />
+                <label for="promisses">Promisses</label>
+            </div>
+
+            <div class="aprender">
+                <input type="checkbox" id="react" name="ling" value="react" />
+                <label for="react">React</label>
+            </div>
+
+            <div class="aprender">
+                <input type="checkbox" id="sql" name="ling" value="sql" />
+                <label for="sql">SQL</label>
+            </div>
+
+            <div class="aprender">
+                <input type="checkbox" id="python" name="ling" value="python" />
+                <label for="python">Python</label>
+            </div>
+
+        </article>
+    </section>
+
+    <hr>
+    <section class="notaTrybewarts" id="">
+        <p id="" class="paragraAvalia">Como você avalia a Trybewarts?</p>
+
+        <div class="notasAvaliação" id="">
+
+            <input type="radio" id="nota1" class="" name="nota">
+            <label for="nota1" id="" class="">1</label>
+
+            <input type="radio" id="nota2" class="" name="nota">
+            <label for="nota2" id="" class="">2</label>
+
+            <input type="radio" id="nota3" class="" name="nota">
+            <label for="nota3" id="" class="">3</label>
+
+            <input type="radio" id="nota4" class="" name="nota">
+            <label for="nota4" id="" class="">4</label>
+
+            <input type="radio" id="nota5" class="" name="nota">
+            <label for="nota5" id="" class="">5</label>
+
+            <input type="radio" id="nota6" class="" name="nota">
+            <label for="nota6" id="" class="">6</label>
+
+            <input type="radio" id="nota7" class="" name="nota">
+            <label for="nota7" id="" class="">7</label>
+
+            <input type="radio" id="nota8" class="" name="nota">
+            <label for="nota8" id="" class="">8</label>
+
+            <input type="radio" id="nota9" class="" name="nota">
+            <label for="nota9" id="" class="">9</label>
+
+            <input type="radio" id="nota10" class="" name="nota">
+            <label for="nota10" id="" class="">10</label>
+
+        </div>
+    </section>
+
+    <div class="comentario" id="">
+    <label id="" class="labelComentario" for="areaTexto">Deixe seu comentario:</label>
+    <textarea name="" id="areaTexto" cols="95" rows="5">Xablau!!</textarea>
+
+    
+    <label for="concorda">Você concorda com o uso das informações acima?</label>
+    <input type="radio" class="" id="concorda" required>
+
+    <input id="" class="concluir" type="submit" value="Enviar">
+    </div>
+</section>
+
+<img class="escudoTrybewarts" id="" src="Trybe.png" alt="">
+
+
+<footer>
+<p class="rodaPe" id="">Diretos reservados à Trybewarts &reg</p>
+
+</footer>
+</body>
+
+</html>
