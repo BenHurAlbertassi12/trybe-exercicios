@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  width: 300px;
+}
+
+.divi {
+    display: flex;
+}
+
+hr {
+  width: 600px;
+  margin: 30px;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(50,167,145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.tryCabecalho {
+  font-size: 40px;
+  color: white;
+}
+
+.imgHeader,
+.usuario {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgHeader {
+  width: 100px;
+}
+
+.loginSenha {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+  justify-content: space-around;
+}
+.buttoon
+ {
+  text-align: center;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-weight: 900;
+}
+
+.seuCla,
+.notaTrybewarts {
+  width: 50%;
+  display: inline-flex;
+  padding: 0 2%;
+}
+
+textarea {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.notaTrybewarts {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aprender {
+  margin: 0 10px;
+}
+
+.notaTrybewarts
+{
+  font-size: 28px;
+  padding: 0 2%;
+  line-height: 46px;
+  align-items: center;
+  width: 100%;
+}
+
+.comentario {
+  width: 80%;
+  display: block;
+  padding: 0 2%;
+}
+
+footer {
+  width: 100%;
+  background-color: darkslategrey;
+  margin-top: 2%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodaPe {
+  color: white;
+  font-size: 20px;
+  padding: 0.8%;
+ text-align: center;
+ width: 100%;
+ 
+}
+
+.escudoTrybewarts {
+  display: inline-flex;
+  width: 50%;
+}
+
+.areaFormulario {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.casaSelecionar,
+.box1 {
+  padding: 2%;
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+.nameMailHouse {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.salvaSalveFamilia,
+.vontadeAprender,
+.comoAvalia,
+.labelComentario,
+.termos  {
+  width: 100%;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.aprendendo {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0, 10px;
+}
+
+#nota1,
+#nota2,
+#nota3,
+#nota4,
+#nota5,
+#nota6,
+#nota7,
+#nota8,
+#nota9,
+#nota10,
+.radioConcorda {
+  margin-left: 15px;
+}
+
+#areaTexto{
+    width: 100%;
+}
+.concluir
+
+{
+    width: 85%;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: 900;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-around;
+
+    font-size: 20px;
+  }
+
+  .termosFinais{
+    padding: 2%;
+  }
+  
+
