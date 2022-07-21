@@ -27,3 +27,16 @@ const repeat = (number, action) => {
   }
   
   console.log(numberGenerator());
+
+  //------------------------------------------------------------------------------------------
+
+
+  const boraAcordar = () => 'Acordando';
+  const horaDoLanche = () => 'Bora tomar café!!';
+  const boraDormir = () => 'Eita Soninho'
+
+  const doinThings = (callback) => {
+    const result = callback(); console.log(result)};
+    doinThings(boraAcordar)
+    doinThings(horaDoLanche)
+    doinThings(boraDormir)
