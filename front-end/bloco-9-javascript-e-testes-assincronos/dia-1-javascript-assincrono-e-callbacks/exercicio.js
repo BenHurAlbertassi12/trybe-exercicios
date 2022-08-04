@@ -1,30 +1,13 @@
-const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
-    `${name} is ${value} ${measurementUnit} apart from the Sun`;
+const messageDelay = () => Math.floor(Math.random() * 5000);
 
-const mars = {
-    name: "Mars",
-    distanceFromSun: {
-        value: 227900000,
-        measurementUnit: "kilometers",
-    },
+const getMarsTemperature = () => {
+    const maxTemperature = 58;
+    return Math.floor(Math.random() * maxTemperature);
 };
 
-const venus = {
-    name: "Venus",
-    distanceFromSun: {
-        value: 108200000,
-        measurementUnit: "kilometers",
-    },
+const sendMarsTemperature = () => {
+    const temperatura = getMarsTemperature();
+    setTimeout(() => console.log(`Mars temperature is: ${temperatura} degree Celsius`), messageDelay());
 };
 
-const jupiter = {
-    name: "Jupiter",
-    distanceFromSun: {
-        value: 778500000,
-        measurementUnit: "kilometers",
-    },
-};
-
-setTimeout(() => console.log(planetDistanceFromSun(mars)), 4000); // A
-setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
-setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
+sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
