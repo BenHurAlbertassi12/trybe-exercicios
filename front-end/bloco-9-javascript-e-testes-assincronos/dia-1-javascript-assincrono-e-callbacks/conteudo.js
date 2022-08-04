@@ -1,9 +1,33 @@
-const pushNumber = (list, number) => list.push(number);
+const despesas = [
+    {
+        gym: 99,
+    },
+    {
+        ifood: 200,
+    },
+    {
+        phone: 60,
+    },
+    {
+        internet: 100,
+    },
+];
 
-let numbers = [];
+const renda = 1000;
 
-setTimeout(() => pushNumber(numbers, 1), 3000);
-pushNumber(numbers, 2);
-pushNumber(numbers, 3);
+const despesaMensal = (renda, despesas, callback) => {
+    const despesaTotal = callback(despesas);
+    const saldoFinal = renda - despesaTotal
 
-setTimeout(() => console.log(numbers), 3000);
+    console.log(`Balanço do mês: 
+    Recebido: R$${renda},00 
+    Gasto: ${despesaTotal},00 
+    Saldo: ${saldoFinal},00`);
+}
+
+const somaDespesas = (despesas) => {
+    const custoItem = despesas.map((item) => Object.values(item));
+    const despesaTotal = custoItem.reduce((acc, curr) => acc += curr[0], 0);
+    return despesaTotal;
+}
+despesaMensal(renda, despesas, somaDespesas)
