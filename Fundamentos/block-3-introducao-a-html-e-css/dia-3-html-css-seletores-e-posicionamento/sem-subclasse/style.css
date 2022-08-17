@@ -1,0 +1,47 @@
+/* estizar as divs para ter borda */
+
+div:hover {
+  border: 5px solid red;
+}
+
+/* colorir as divs separadamente. nota pessoal, não entendi nada no códiogo */
+
+div:nth-of-type(1) {
+  color: green;
+}
+
+div:nth-of-type(2) {
+  color: blue;
+}
+
+div:nth-of-type(3) {
+  color: orange;
+}
+div:nth-of-type(4) {
+  color: rgb(0, 134, 76);
+}
+
+div:nth-of-type(5) {
+  color: rgb(255, 0, 179);
+}
+
+/* segundo a base do exercicio de cima, alterar a "propriedade" de cada um */
+
+div:nth-of-type(1) > h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+div:nth-of-type(2) > h3 {
+    font-style: bold;
+}
+div:nth-of-type(3) > h3 {
+    font-style: italic;
+    font-size: 24px;
+}
+div:nth-of-type(4) > h3 {
+    text-align: center;
+}
+div:nth-of-type(5) > h3 {
+    font-weight: 900;
+    font-style: italic;
+}

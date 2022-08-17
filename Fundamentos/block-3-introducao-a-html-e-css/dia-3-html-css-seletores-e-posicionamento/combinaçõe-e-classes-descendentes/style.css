@@ -1,0 +1,38 @@
+ol {
+    font-size: 20px;
+    background-color: yellow;
+}
+
+li {
+    font-size: 20px;
+}
+
+li:nth-child(odd){
+        text-transform: uppercase;
+}
+
+.par{
+    font-weight: bold;
+    color: green;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+}
+.azul{
+    color:blue
+}
+
+.hover:hover {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
