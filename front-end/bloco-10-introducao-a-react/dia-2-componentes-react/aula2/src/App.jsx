@@ -1,14 +1,23 @@
+import React from 'react';
 import './App.css';
-import staringCat from './staringCat.jpg'
-import Image from './Funcoes';
+import Header from './components/Header';
+import GameInfo from './components/GameInfo';
+import pokemons from './Data';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>BenHur Albertassi</h1>
-      <Image source={staringCat} alternativeText="Cute cat staring" />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header titulo='Pokedex' />
+        <br />
+        <section>
+          {pokemons.map((pokes) => (
+            <GameInfo key={pokes.id} gameInfo={pokes} />
+          ))}
+        </section>
+      </div>
+    );
+  }
 }
 
 export default App;
