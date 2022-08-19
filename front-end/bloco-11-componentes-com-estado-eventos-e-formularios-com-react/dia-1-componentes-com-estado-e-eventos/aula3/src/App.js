@@ -1,10 +1,12 @@
 import './App.css';
-import MeuBotaoDeCompras from './component/Botao';
+import MeuBotaoDeCompras from './component/Botao'; 
+import Botao2 from './component/Botao2';
 
 function App() {
   return (
     <div className="App">
-     <MeuBotaoDeCompras />
+      <MeuBotaoDeCompras />
+      <Botao2 />
     </div>
   );
 }
