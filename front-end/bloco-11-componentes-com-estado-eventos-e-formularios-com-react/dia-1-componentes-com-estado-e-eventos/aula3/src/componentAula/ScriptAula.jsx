@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../data.js';
+import './SciptAula.css'
 
 class ScriptAula extends React.Component {
   state = {
@@ -22,7 +23,7 @@ class ScriptAula extends React.Component {
           {data
             .filter((poke) => poke.name.includes(this.state.search))
             .map((poke) => 
-              <li key={poke.id}>{poke.name}</li>
+              <li key={poke.id}> {poke.name}</li>
             )}
         </ul>
       </div>
