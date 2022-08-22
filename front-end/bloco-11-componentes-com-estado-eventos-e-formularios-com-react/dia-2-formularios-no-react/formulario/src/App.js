@@ -1,12 +1,12 @@
 
 import './App.css';
-import Form from './component/Form';
+// import Form from './component/Form';
+import AulaAovivo from './components/AulaAovivo';
 
 function App() {
   return (
     <div className="App">
-      <Form />
-   
+         <AulaAovivo />
       
     
     </div>
